@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-gemma"
+description = "ComfyUI Gemma"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["packaging", "kagglehub", "immutabledict", "sentencepiece"]
+
+[project.urls]
+Repository = "https://github.com/chaojie/ComfyUI-Gemma"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Gemma"
+Icon = ""
